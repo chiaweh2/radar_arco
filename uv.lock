@@ -3248,7 +3248,6 @@ requires-dist = [
     { name = "jupyterlab", specifier = ">=4.5.1" },
     { name = "kerchunk", specifier = ">=0.2.9" },
     { name = "numpy", specifier = "<2.4.0" },
-    { name = "virtualizarr" },
     { name = "virtualizarr", specifier = ">=2.2.1" },
     { name = "xradar", specifier = ">=0.11.0" },
     { name = "zarr", specifier = ">=3.1.5" },
