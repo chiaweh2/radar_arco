@@ -3234,6 +3234,7 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "arm-pyart" },
+    { name = "cmweather" },
     { name = "jupyterlab" },
     { name = "kerchunk" },
     { name = "numpy" },
@@ -3245,6 +3246,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "arm-pyart", specifier = ">=2.1.1" },
+    { name = "cmweather", specifier = ">=0.3.2" },
     { name = "jupyterlab", specifier = ">=4.5.1" },
     { name = "kerchunk", specifier = ">=0.2.9" },
     { name = "numpy", specifier = "<2.4.0" },
